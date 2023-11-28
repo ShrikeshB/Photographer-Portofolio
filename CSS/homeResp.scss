@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1200px) {
+  //HRO SECTION
+  .hero-section {
+    background-image: url(../Images/Heromb-min.png);
+    background-position: center;
+    height: 70vh;
+  }
+  .hero-section .container {
+    align-items: flex-start;
+    .email-add {
+      margin-top: 0;
+      margin: 2em 0em;
+    }
+  }
+  .hero-section .container .content {
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 80%;
+  }
+  .hero-section .container p {
+    margin: 0;
+    margin-top: -30px;
+    font-size: 1.5rem;
+  }
+
+  //ABOUT US
+  .about-section .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-section .container .left {
+    width: 100%;
+    margin-top: 2em;
+  }
+  .about-section .container .left .content p {
+    font-size: 25px;
+  }
+  .about-section .container .left .content {
+    width: 100%;
+  }
+  .about-section .container .right {
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .about-section .container .right .img-container {
+    width: 40%;
+  }
+  .about-section .container .left .content .read {
+    font-size: 25px;
+  }
+}

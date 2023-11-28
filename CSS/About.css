@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero-section {
+  background-image: url(../Images/Hero-about-min.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: white;
+  overflow: hidden;
+  padding: 32px;
+}
+
+.hero-section .container {
+  margin-left: 140px;
+  margin-top: 150px;
+}
+
+.hero-section .container .content h1 {
+  font-size: 150px;
+}
+
+.hero-section .container .content p {
+  margin-top: -3em;
+}
+
+.about-section {
+  background-image: url(../Images/BG1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10em;
+}
+
+.about-section .container {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-section .container .left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-section .container .left .content {
+  width: 80%;
+}
+
+.about-section .container .left .content h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.about-section .container .left .content p {
+  text-align: justify;
+  margin-top: 2em;
+}
+
+.about-section .container .left .content .read {
+  color: var(--prime);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.about-section .container .left .location {
+  margin: 4em 0em;
+}
+
+.about-section .container .left .location .loc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+.about-section .container .left .location .loc .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35px;
+}
+
+.about-section .container .left .location .loc p {
+  margin: 0;
+  margin-left: 1em;
+}
+
+.about-section .container .right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-section .container .right .img-container {
+  width: 70%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.about-section .container .right .img-container img {
+  -webkit-box-shadow: 1px 1px 15px grey;
+          box-shadow: 1px 1px 15px grey;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-section {
+    height: 42vh;
+  }
+  .hero-section .container .content p {
+    margin-top: -2em;
+    font-size: 25px;
+  }
+  .hero-section .container {
+    margin-left: 0;
+  }
+  .about-section {
+    padding: 3em;
+  }
+  .about-section .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-section .container .left {
+    width: 100%;
+    margin-top: 2em;
+  }
+  .about-section .container .left .content p {
+    font-size: 25px;
+  }
+  .about-section .container .left .content {
+    width: 100%;
+  }
+  .about-section .container .right {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+  }
+  .about-section .container .right .img-container {
+    width: 40%;
+  }
+  .about-section .container .left .content .read {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=About.css.map */

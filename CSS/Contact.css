@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero-section {
+  background-image: url(../Images/Hero-contact-min.png);
+  background-repeat: no-repeat;
+  background-size: top;
+  background-position: center;
+  height: 80vh;
+  color: white;
+  overflow: hidden;
+  padding: 32px;
+}
+
+.hero-section .container {
+  margin-left: 140px;
+  margin-top: 150px;
+}
+
+.hero-section .container .content h1 {
+  font-size: 150px;
+}
+
+.hero-section .container .content p {
+  margin-top: -3em;
+}
+
+.about-section {
+  background-image: url(../Images/BG1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10em;
+}
+
+.about-section .container {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-section .container .left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-section .container .left .content {
+  width: 80%;
+}
+
+.about-section .container .left .content h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.about-section .container .left .content p {
+  text-align: justify;
+  margin-top: 2em;
+}
+
+.about-section .container .left .content .read {
+  color: var(--prime);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.about-section .container .left .content form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-section .container .left .content form input {
+  margin: 1em 0em;
+  padding: 1em 0.5em;
+}
+
+.about-section .container .left .content form textarea {
+  margin: 1em 0em;
+  padding: 1em 0.5em;
+}
+
+.about-section .container .left .content form .submit {
+  padding: 0;
+  border: none;
+}
+
+.about-section .container .right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-section .container .right .img-container {
+  width: 70%;
+  height: 64%;
+  overflow: hidden;
+}
+
+.about-section .container .right .img-container .IMG {
+  -webkit-box-shadow: 0px 0px 25px black;
+          box-shadow: 0px 0px 25px black;
+}
+
+.about-section .container .right .location {
+  margin: 4em 0em;
+}
+
+.about-section .container .right .location .loc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+.about-section .container .right .location .loc .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35px;
+}
+
+.about-section .container .right .location .loc p {
+  margin: 0;
+  margin-left: 1em;
+}
+/*# sourceMappingURL=Contact.css.map */
