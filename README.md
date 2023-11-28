@@ -1,5 +1,5 @@
 # Photographer-Portofolio
-# What this website is about?
+## What this website is about?
 
 * This website displays a photographer's portfolio for clients to explore.
 * Photographers can exhibit their skills and showcase their portfolio by sharing the photos they have captured on this website, providing clients with a visual representation of their work.
